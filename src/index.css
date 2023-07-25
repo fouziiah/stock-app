@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #96C2DB, #E5EDF1;
+}
+
+.con {
+  display: flex;
+}
+
+.name {
+  flex-basis: 30%;
+}
+
+.lastPrice {
+  flex-basis: 20%;
+}
+
+.change {
+  flex-basis: 50%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(139, 127, 127);
+  padding: 20px;
+  font-size: 25px;
+
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
